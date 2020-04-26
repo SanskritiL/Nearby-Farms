@@ -9,20 +9,13 @@ class MainPage extends StatelessWidget {
     Size size = MediaQuery.of(context).size;
 
     return Scaffold(
-      
-    // backgroundColor: primaryColor,
-      body: Center(
-        
+      body: Center(        
         child: new Image.asset('assets/home_prototype.png',
           width: size.width,
           height: size.height,
-          fit: BoxFit.cover,
-          
+          fit: BoxFit.cover,         
         ),
       ),
-
-    );
-        
-     
+    );    
   }
 }

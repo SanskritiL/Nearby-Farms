@@ -55,27 +55,26 @@ class _MyAppState extends State<Location> {
 
   BitmapDescriptor customIcon;
 
-  // createMarker(context) {
-  //   if (customIcon == null) {
-  //     ImageConfiguration configuration = createLocalImageConfiguration(context);
-  //     BitmapDescriptor.fromAssetImage(configuration, 'assets/Home.png')
-  //         .then((icon) {
-  //       setState(() {
-  //         customIcon = icon;
-  //       });
-  //     });
-  //   }
-  // }
+  createMarker(context) {
+    if (customIcon == null) {
+      ImageConfiguration configuration = createLocalImageConfiguration(context);
+      BitmapDescriptor.fromAssetImage(configuration, 'assets/Home.png')
+          .then((icon) {
+        setState(() {
+          customIcon = icon;
+        });
+      });
+    }
+  }
 
   void initState() {
     super.initState();
-
     _fetch();
     setState(() {
       allMarkers.add(Marker(
           markerId: MarkerId('1'),
           draggable: false,
-          icon: BitmapDescriptor.fromAsset('assets/home_marker.png'),
+          icon: customIcon,
           infoWindow: InfoWindow(title: 'Home'),
           position: LatLng(27.506553, 83.448217)));
     });
@@ -84,12 +83,10 @@ class _MyAppState extends State<Location> {
           allMarkers.add(Marker(
               markerId: MarkerId(farm.farmName),
               draggable: false,
-              icon: BitmapDescriptor.fromAsset('assets/custom_marker.png'),
               infoWindow:
                   InfoWindow(title: farm.farmName, snippet: farm.description),
               onTap: () {
                 print("marker tapped");
-
               },
               position: LatLng(double.parse(farm.address[0]),
                   double.parse(farm.address[1]))))
@@ -223,7 +220,6 @@ class _MyAppState extends State<Location> {
 
   @override
   Widget build(BuildContext context) {
-    // createMarker(context);
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(

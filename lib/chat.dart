@@ -64,12 +64,12 @@ class _ChatDialogflow extends State<ChatDialogflow> {
         Dialogflow(authGoogle: authGoogle, language: Language.english);
     print("working");
     AIResponse response = await dialogflow.detectIntentFromText(query);
-    print("workd");
+    print("worked");
 
     ChatMessage message = new ChatMessage(
       text: response.getMessage() ??
           new CardDialogflow(response.getListMessage()[0]).title,
-      name: "Fresh Farms",
+      name: "Nearby Farms",
       type: false,
     );
     setState(() {

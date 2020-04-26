@@ -76,8 +76,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 } else {
                   Navigator.push(
                     context,
-                    new MaterialPageRoute(
-                        builder: (context) => new Farmer()),
+                    new MaterialPageRoute(builder: (context) => new Farmer()),
                   );
                 }
               }),

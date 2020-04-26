@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:earth_hack/main.dart';
+
 class NavDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -7,24 +8,18 @@ class NavDrawer extends StatelessWidget {
       child: ListView(
         padding: EdgeInsets.zero,
         children: <Widget>[
-          
           DrawerHeader(
-            
             child: Text(
               ' ',
               style: TextStyle(color: Colors.white, fontSize: 25),
             ),
             decoration: BoxDecoration(
-              
                 color: Colors.grey[400],
                 image: DecorationImage(
-                    
-                    fit: BoxFit.contain,
-                    image: AssetImage('assets/user_profile.png'),
-                    
-                    )),
-         
-            ),
+                  fit: BoxFit.contain,
+                  image: AssetImage('assets/user_profile.png'),
+                )),
+          ),
           ListTile(
             leading: Icon(Icons.input),
             title: Text('Welcome'),
@@ -48,9 +43,10 @@ class NavDrawer extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.exit_to_app),
             title: Text('Logout'),
-            onTap: () => {Navigator.push(context,
-                    new MaterialPageRoute(
-                        builder: (context) => new MyApp()))},
+            onTap: () => {
+              Navigator.push(context,
+                  new MaterialPageRoute(builder: (context) => new MyApp()))
+            },
           ),
         ],
       ),

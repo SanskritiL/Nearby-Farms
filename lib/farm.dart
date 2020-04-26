@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 class Farm {
   String farmName;
   String farmerName;
-  //String address;
+  List address;
   String description;
   String rating;
   String thumbnail;
@@ -13,7 +13,7 @@ class Farm {
   Farm(
       {this.farmName,
       this.farmerName,
-      // this.address,
+      this.address,
       this.description,
       this.rating,
       this.thumbnail});
@@ -22,8 +22,6 @@ class Farm {
 final List<Farm> farmInfo = [];
 
 final databaseReference = Firestore.instance;
-
-
   void _fetch() {
     databaseReference
         .collection("allfarms")
