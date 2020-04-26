@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "earthxhack-vpbgkl",
+  "private_key_id": "e9eecb50a39200b2a4cf0c9eb34dcd2d49c1c4ca",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCyrjAqawDLZLJi\nfhHGac2A3vpbmDxJuvZAXw7Y61BL84wSRc+p1LhArU8E8m4n63j4BTYG8Xp3xVlJ\nWzcUVidn9gqrPsaZHUm764mWxYHK4N5uRp26/W1j+GHlw2Q9rIGKQgG9ugKm9XXu\nZhIEl2EqtI+RVogsCa3nqVuRWxVG9bsXAt69cWr9UAPtcb0CP869/gWUmueevMR1\nO9PC8M+IYu/Rn0xBH7ZbhkNnkc226fTLjhlXaBaAqT+W0gmmF3VAntlqYXzd5GWD\n5LQhjB5ctt2JMu3o+nleYYEF6gk4v2mz+m4v5e2+Dt2Grn4cEMFI5wylGeekqBP1\nVZmj0v/vAgMBAAECggEAJEdmwy4Prrxm1cWoIUOZNKnRZmiOESBTYHWMg7Gfj5RH\nI+ylweNNd+BYc3YvtI5EdQNF2XoNNiVNQC4zjD8D6EFWIDfyReNi9bNYr9KxTDqF\nHxnaa72KCOrFIcwe3cDZWnOVe+q5ICIljD6QOPttgKjBn65UnrBmbWt/Co/WTZ4/\nG6tr9vXVUUtIVuv66UGltKfZ9LTTAFVAuwZDRdDqxecNGH9rKoOmb6dLz3+2rWCi\nHvZ1cMnXaCse4X/oHi/fWEtfTjqlsMWHvoll6EVrDnNIazaM3e3AO0V3vIDmMxWe\nadt4xPzH7t2FlZAJKBjIxidon9Zybk1wAidsI24bZQKBgQDiqdITpScs/vcTtKVc\npE1S4dMUOzYmwJdLKNXG9BIItg5bMXe+c1NDkoqKDHCJjVmmPaPflH8QkA9x/Bft\n7cFCb0lz8t5OI3OtLVSGQo/znfDZumvQEFdS4hQD1/iYaT0hVampbEI9hqjPMti4\nGmr4Q4FJ2yJHeCO+gAxgKft4kwKBgQDJzoTJeLL47wgOZNRiCURRAnOiVazTxsG/\nqxd7poNrfUAjs/hZPELiBHvzZzOns6TEayOxi+a9Whr7BlLXmoRSnbi23Sk+OgSC\n9/kqe1Tyhcgpmi4DaaMjO9liF4cEjfw/H+q7zzNulKjB8ENEM0PwieGkrPQ0pNah\njh1sBNZAtQKBgGlqsdmRJfc3XZI8oevEPnIdtR3jq/u59qNuCn7NZNXIVkTzbM2W\ntVLoBKbPwkc3BkrawCxr0+zQE17f8AEoYomTWIYknl+Y/WO9gWIv8uNKwYmBukK6\nVuKlYsmm2GeKCnRGcvHo96XFyx0SeNim8LkmLCs9T2QN7BHdW+QdomchAoGACo5G\n29L4aZT3MumLQmWBsUsTiVY56AnpcIEehVU8Yo72n+d2AhTo2rGpWh330bnP0IZa\nI5tRwm3II4E9LBHlAf1GACqpUZvvSHp4CgTReK4Ovj5WUc9gvSMQR9U7Nr3Gh/a/\nbHt2ET6tZReQLS0RTK+podd6HpbQszqfx1qpalECgYA/oX5AtB2zl7/6oeaJ85fW\n5nglIqtMO2NHt8JsCarJorIao/CAxOF6/+TOOhCKPcX2jhFY4BoUuojPZJNcCf+O\n9orORCsqP7nws4h0qfUMVYsO+wEGVBmk67pUjjc82H4uaoJpUpba8gFmeqYphMgM\nVeDHJ3YToE9LC3jnwVl8tQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "earthhacknew@earthxhack-vpbgkl.iam.gserviceaccount.com",
+  "client_id": "113844553475572438295",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/earthhacknew%40earthxhack-vpbgkl.iam.gserviceaccount.com"
+}
